@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+}
+
+.led{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid grey;
+    margin: -1px 0 0 -1px;
+}
+
+.creator{
+    margin-top: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+}
